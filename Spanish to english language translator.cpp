@@ -28,5 +28,4 @@ int main(){
 	cin>>word;
 	string translation = translate(word, dictionary);
 	cout<<"Translation:"<<translation<<endl;
-	return 0;
 }
