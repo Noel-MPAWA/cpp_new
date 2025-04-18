@@ -15,6 +15,15 @@ elif Age >= 18 and Age < 60:
 else:
     print("You are a senior citizen.")
 
+# Asking question to collect some data
+
+Street = input("Enter your street name")
+
+Name = input("Enter your name")
+ 
+#Confirmation
+print ("Confirm your infos: ","Name: ",Name, "From: ",Street, "Age: ",Age,"Gender: ",Gender)
+
 
 
 
